@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         setupButtonClockListener();
     }
 
-// github token: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
     private void findViews(){
         resultText = findViewById(R.id.text_view_result);
         statusText = findViewById(R.id.text_view_status);// resultText now a class variable
