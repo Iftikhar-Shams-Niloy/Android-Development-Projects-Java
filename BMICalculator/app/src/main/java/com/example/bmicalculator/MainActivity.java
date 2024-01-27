@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         if (bmiTotal < 18.5) {
             review = "You are UNDERWEIGHT!";
         } else if (bmiTotal >= 18.5 && bmiTotal <=24.9) {
-            review = "Your weight is NORMAL!";
+            review = "Your weight is HEALTHY!";
         } else if (bmiTotal >= 25 && bmiTotal <= 29.9){
             review = "You are OVERWEIGHT!";
         } else if (bmiTotal >= 30 && bmiTotal <= 34.9) {
