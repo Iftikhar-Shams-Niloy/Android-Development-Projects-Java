@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:padding="25dp"
+    android:layout_margin="30dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal">
-
     <ImageView
-        android:src="@drawable/bmi_head"
-        android:layout_width="250dp"
-        android:layout_height="150dp"
-        />
+        android:src="@drawable/bmi_head_original"
+        android:layout_width="400dp"
+        android:layout_height="250dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:paddingTop="10dp"
-        android:layout_margin="10dp"
         android:textAllCaps="true"
+        android:textSize="35sp"
+        android:textColor="#BB8686"
         android:text="BMI Calculator"/>
 
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="5dp">
+        android:orientation="horizontal">
         <RadioButton
             android:id="@+id/radio_button_male"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#C08167"
             android:text="Male" />
         <RadioButton
             android:id="@+id/radio_button_female"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#C08167"
             android:text="Female"/>
     </RadioGroup>
 
@@ -42,49 +43,77 @@
         android:id="@+id/edit_text_age"
         android:inputType="number"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_height="40dp"
+        android:textColor="#C08167"
+        android:width = "200sp"
         android:hint="Age" />
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_height="40dp"
         android:orientation="horizontal">
         <EditText
             android:id="@+id/edit_text_feet"
             android:inputType="number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#C08167"
+            android:width = "100sp"
             android:hint="Feet" />
         <EditText
             android:id="@+id/edit_text_inches"
             android:inputType="number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#C08167"
+            android:width = "100sp"
             android:hint="Inches" />
     </LinearLayout>
 
     <EditText
         android:id="@+id/edit_text_weight"
-        android:inputType="number"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:hint="Weight" />
+        android:layout_height="40dp"
+        android:width="196dp"
+        android:inputType="number"
+        android:paddingBottom="10dp"
+        android:textColor="#C08167"
+        android:hint="Weight (kg)" />
 
     <Button
         android:id="@+id/button_calculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:textColor="#C08167"
+        android:width = "200dp"
+        android:backgroundTint="#DABEA3"
         android:text="Calculate"/>
 
     <TextView
         android:id="@+id/text_view_result"
         android:layout_width="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="3dp"
         android:layout_height="wrap_content"
-        android:text="24.5 - You are fat!"/>
+        android:textSize="20sp"
+        android:textColor="#C08167"
+        android:text=""/>
+    <TextView
+        android:id="@+id/text_view_review"
+        android:layout_width="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#C08167"
+        android:text=""/>
+    <TextView
+        android:id="@+id/text_view_status"
+        android:layout_width="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#C08167"
+        android:text=""/>
 
 </LinearLayout>
