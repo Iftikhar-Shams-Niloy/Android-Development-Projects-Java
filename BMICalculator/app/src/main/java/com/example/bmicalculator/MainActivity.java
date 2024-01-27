@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
         findViews();
         setupButtonClockListener();
     }
-
     private void findViews(){
         resultText = findViewById(R.id.text_view_result);
         statusText = findViewById(R.id.text_view_status);// resultText now a class variable
