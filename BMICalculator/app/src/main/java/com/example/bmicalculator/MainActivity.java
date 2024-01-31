@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView reviewText;
     private Button calculateButton;
     private RadioButton radioMale;
-    private View radioFemale;
+    private RadioButton radioFemale;
     private EditText ageEditText;
     private EditText feetEditText;
     private EditText inchesEditText;
