@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
                 String inchesString = inchesEditText.getText().toString();
                 String feetString = feetEditText.getText().toString();
 //                int feetInt = Integer.parseInt(feetString);
-
                 if (inchesString.isEmpty() || feetString.isEmpty()){
                     Toast.makeText(MainActivity.this,"Please, fill up all the fields!",Toast.LENGTH_SHORT).show();
                 } else{

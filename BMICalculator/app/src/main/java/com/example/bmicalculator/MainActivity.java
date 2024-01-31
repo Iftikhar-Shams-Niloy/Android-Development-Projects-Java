@@ -64,16 +64,22 @@ public class MainActivity extends AppCompatActivity {
         String inchesText = inchesEditText.getText().toString();
         String weightText = weightEditText.getText().toString();
 
-        int ageInteger = Integer.parseInt(ageText);
-        int feetInteger = Integer.parseInt(feetText);
-        int inchesInteger = Integer.parseInt(inchesText);
-        int weightInteger = Integer.parseInt(weightText);
-        int totalInch = (feetInteger * 12) + inchesInteger;
-        double heightMeters = totalInch * 0.0254;
+        if (ageText.isEmpty() || feetText.isEmpty() || inchesText.isEmpty() || weightText.isEmpty()){
+            Toast.makeText(MainActivity.this, "Please, fill up all the fields!!!",Toast.LENGTH_SHORT).show();
+            return 0;
+        } else{
+            int ageInteger = Integer.parseInt(ageText);
+            int feetInteger = Integer.parseInt(feetText);
+            int inchesInteger = Integer.parseInt(inchesText);
+            int weightInteger = Integer.parseInt(weightText);
+            int totalInch = (feetInteger * 12) + inchesInteger;
+            double heightMeters = totalInch * 0.0254;
 
-        statusText.setText("||| Your Status |||\nAge: "+ ageText +" \nHeight: "+ feetText +"' "+ inchesText + "''\nWeight: " + weightText);
+            statusText.setText("||| Your Status |||\nAge: "+ ageText +" \nHeight: "+ feetText +"' "+ inchesText + "''\nWeight: " + weightText);
 
-        return weightInteger/ (heightMeters * heightMeters);
+            return weightInteger/ (heightMeters * heightMeters);
+        }
+
     }
 
     private void showResult(double bmiTotal){
