@@ -12,11 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShareCare"
         tools:targetApi="31">
+
         <activity
             android:name=".StartersActivity"
             android:label="Starters"
             android:parentActivityName=".MainActivity"
             android:exported="false" />
+
+        <activity android:name=".MainCoursesActivity"
+            android:label="Main Courses"
+            android:parentActivityName=".MainActivity"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
