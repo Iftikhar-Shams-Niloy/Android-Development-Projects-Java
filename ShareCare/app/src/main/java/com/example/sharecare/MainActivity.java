@@ -13,6 +13,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     CardView startersCard;
     CardView mainsCard;
+    CardView dessertCard;
     TextView emailAdress;
 
     @Override
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         startersCard = findViewById(R.id.card_view_starters);
         mainsCard = findViewById(R.id.card_view_main_course);
+        dessertCard = findViewById(R.id.card_view_dessert);
         startersCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,6 +37,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(mainsActivityIntent);
             }
         });
+        dessertCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent dessertActivityIntent = new Intent(MainActivity.this, DessertActivity.class);
+                startActivity(dessertActivityIntent);
+            }
+        });
+
         TextView emailTextView = findViewById(R.id.text_view_email);
         emailTextView.setOnClickListener(new View.OnClickListener() {
             @Override
