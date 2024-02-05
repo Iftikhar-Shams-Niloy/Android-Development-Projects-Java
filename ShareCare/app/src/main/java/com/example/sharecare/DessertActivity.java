@@ -29,9 +29,9 @@ public class DessertActivity extends AppCompatActivity {
                 new Dish("Brownie with Ice Cream and Caramel", "Brownie with Ice Cream and Caramel", 250)
         };
 
-        ArrayAdapter<Dish> dishesAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, desserts);
+        ArrayAdapter<Dish> dishesAdapter = new ArrayAdapter<>(this, R.layout.custom_list_view, R.id.custom_text_view, desserts);
         dessertsList.setAdapter(dishesAdapter);
 
-
     }
+
 }

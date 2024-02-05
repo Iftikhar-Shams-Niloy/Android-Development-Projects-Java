@@ -12,11 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShareCare"
         tools:targetApi="31">
-
+        <activity
+            android:name=".DrinksActivity"
+            android:label="Drinks"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".DessertActivity"
             android:label="Dessert"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".StartersActivity"
             android:label="Starters"

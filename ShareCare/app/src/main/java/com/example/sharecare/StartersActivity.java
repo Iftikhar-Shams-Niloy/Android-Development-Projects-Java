@@ -30,9 +30,7 @@ public class StartersActivity extends AppCompatActivity {
                 new Dish("Peppercorn and Tamarind Soup","Peppercorn and Tamarind Soup", 230)
         };
 
-
-        ArrayAdapter<Dish> dishesAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, dishesArray);
-
+        ArrayAdapter<Dish> dishesAdapter = new ArrayAdapter<>(this, R.layout.custom_list_view, R.id.custom_text_view, dishesArray);
         startersList.setAdapter(dishesAdapter);
 
     };
