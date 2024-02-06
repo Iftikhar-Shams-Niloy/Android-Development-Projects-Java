@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findViews();
-        setupButtonClockListener();
+        setupButtonClickListener();
     }
     private void findViews(){
         resultText = findViewById(R.id.text_view_result);
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         weightEditText = findViewById(R.id.edit_text_weight);
     }
 
-    private void setupButtonClockListener() {
+    private void setupButtonClickListener() {
         calculateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
