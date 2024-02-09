@@ -13,20 +13,35 @@
         android:layout_margin="12dp"
         tools:layout_editor_absoluteX="10dp"
         tools:layout_editor_absoluteY="10dp"
-        android:gravity="center_horizontal">
+        android:gravity="center">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#6C88C4"
+            app:contentPaddingLeft="6dp"
+            app:contentPaddingRight="6dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp"
+            android:layout_marginHorizontal="40dp">
             <TextView
                 android:id="@+id/text_view_taka"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="35sp"
-                android:layout_marginVertical="40dp"
-                android:text="TAKA:"/>
+                android:layout_marginVertical="5dp"
+                android:layout_marginHorizontal="8dp"
+                android:scaleY="1.2"
+                android:scaleX="1"
+                android:textFontWeight="900"
+                android:text="Taka:"/>
+        </androidx.cardview.widget.CardView>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
+                android:layout_width="82dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:layout_marginVertical="20dp"
@@ -226,7 +241,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="3dp"
                         android:paddingVertical="20dp"
-                        android:paddingHorizontal="50dp"
+                        android:paddingHorizontal="55dp"
+                        android:scaleY="1.1"
                         android:text="CLEAR"
                         android:textSize="20sp"/>
                 </LinearLayout>
