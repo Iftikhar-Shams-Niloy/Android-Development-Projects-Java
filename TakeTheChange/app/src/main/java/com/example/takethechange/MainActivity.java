@@ -1,5 +1,6 @@
 package com.example.takethechange;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView change1;
     public String resultTaka="";
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +41,11 @@ public class MainActivity extends AppCompatActivity {
         // FROM HERE!!!
         findViews();
         setupButtonClockListener();
+
+        if (savedInstanceState !=null) {
+            String getBackTaka = savedInstanceState.getString("resultTaka");
+            makeChange(getBackTaka);
+        }
     }
     private void findViews(){
         Taka = findViewById(R.id.text_view_taka);
@@ -172,5 +179,17 @@ public class MainActivity extends AppCompatActivity {
                 makeClear();
             }
         });
+
+    }
+    @Override
+    protected void onSaveInstanceState(final Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("resultTaka",resultTaka);
+
+    }
+    @Override
+    protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        savedInstanceState.getString("resultTaka");
     }
 }
