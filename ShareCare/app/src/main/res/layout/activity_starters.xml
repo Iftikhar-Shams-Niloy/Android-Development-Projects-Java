@@ -22,6 +22,7 @@
                 android:id="@+id/list_view_starters"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_margin="25dp"
                 android:dividerHeight="12.0sp" />
         </androidx.cardview.widget.CardView>
     </LinearLayout>
