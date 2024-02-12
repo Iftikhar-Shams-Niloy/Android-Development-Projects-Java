@@ -1,41 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="10dp"
-    android:elevation="20dp">
+    android:layout_margin="10dp"
+    android:elevation="10dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="12dp">
-
-        <ImageView
-            android:id="@+id/image_view_project_icon"
-            android:layout_margin="10dp"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/ic_launcher_background"/>
-
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+            app:cardCornerRadius="15dp"
+            android:backgroundTint="@android:color/background_light">
+            <ImageView
+                android:id="@+id/image_view_project_icon"
+                android:layout_margin="7dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_launcher_background"/>
+        </androidx.cardview.widget.CardView>
         <TextView
             android:id="@+id/text_view_title"
-            android:layout_toRightOf="@id/image_view_project_icon"
-            android:layout_alignTop="@id/image_view_project_icon"
+            android:layout_toRightOf="@id/card_view_image"
+            android:layout_alignTop="@id/card_view_image"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
             android:textSize="20sp"
             android:text="THE APP TITLE" />
 
         <TextView
             android:id="@+id/text_view_description"
             android:layout_below="@id/text_view_title"
-            android:layout_toEndOf="@id/image_view_project_icon"
+            android:layout_toEndOf="@id/card_view_image"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
             android:textSize="15sp"
             android:text="This is app Description!"/>
-
 
     </RelativeLayout>
 
