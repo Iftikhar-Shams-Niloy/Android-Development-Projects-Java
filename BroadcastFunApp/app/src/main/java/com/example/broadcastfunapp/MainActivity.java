@@ -4,6 +4,7 @@ import static android.app.ProgressDialog.show;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -18,6 +19,8 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     Spinner itemsSpinner;
     EditText customMessage;
+
+    public String broadcastMessage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,11 +47,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         displayItemInfo(item);
         String itemName = item.getName();
         if (itemName == "Custom broadcast receiver") {
-            // DO SOMETHING WHEN NEEDED
+            String broadcastText = customMessage.getText().toString(); // GETTING THE BROADCAST TEXT
+            Intent CustomBroadcastIntent = new Intent(MainActivity.this, CustomBroadcastActivity.class);
+            startActivity(CustomBroadcastIntent);
         } else if (itemName == "Wifi State Change") {
-            // DO SOMETHING
+            Intent WifiStateIntent = new Intent(MainActivity.this, WifiStateActivity.class);
+            startActivity(WifiStateIntent);
         } else if(itemName == "System battery notification receiver"){
-            // DO SOMETHING
+            Intent BatteryPercentageIntent = new Intent(MainActivity.this, BatteryPercentageActivity.class);
+            startActivity(BatteryPercentageIntent);
         }
     }
     public void displayItemInfo(Item item){
