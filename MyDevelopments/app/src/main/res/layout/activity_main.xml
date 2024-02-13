@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-    android:layout_marginHorizontal="5dp"
-    android:layout_marginVertical="10dp">
+    tools:listitem="@layout/item_project"
+    android:padding="10dp"
+    android:background="#333366">
 </androidx.recyclerview.widget.RecyclerView>
