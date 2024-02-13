@@ -110,7 +110,6 @@ public class MainActivity extends AppCompatActivity {
         int taka1 = Math.round((int)change/1);
         change1.setText("1:"+String.valueOf(taka1));
 //            change=change%1;
-
     }
     private void setupButtonClockListener(){
         button9.setOnClickListener(new View.OnClickListener() {
@@ -179,13 +178,11 @@ public class MainActivity extends AppCompatActivity {
                 makeClear();
             }
         });
-
     }
     @Override
     protected void onSaveInstanceState(final Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putString("resultTaka",resultTaka);
-
     }
     @Override
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
