@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50b128fd-0d8f-4511-a8c5-9d340d5edda7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyDevelopments/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyDevelopments/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyDevelopments/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyDevelopments/app/src/main/res/drawable/share_and_care_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyDevelopments/app/src/main/res/drawable/the_dumb_app_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDevelopments/app/src/main/java/com/example/mydevelopments/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyDevelopments/app/src/main/java/com/example/mydevelopments/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDevelopments/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyDevelopments/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDevelopments/app/src/main/res/layout/item_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyDevelopments/app/src/main/res/layout/item_project.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2cIs7kE4Vm8ncAN6pFDNtc42Lc4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Android/AndroidStudioProjects/ShareCare/app"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50b128fd-0d8f-4511-a8c5-9d340d5edda7" name="Changes" comment="" />
+      <created>1707810261695</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707810261695</updated>
+    </task>
+    <servers />
+  </component>
+</project>
