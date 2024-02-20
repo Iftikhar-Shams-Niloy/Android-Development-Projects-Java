@@ -5,10 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BatteryPercentageActivity"
-    android:gravity="center">
-    <TextView
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#293241">
+    <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="THIS IS BATTER PERCENTAGE ACTIVITY"/>
+        android:padding="10dp"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="#3d5a80"
+        app:cardCornerRadius="20dp">
 
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_battery_percentage"
+            android:layout_width="wrap_content"
+            android:padding="15dp"
+            android:layout_height="wrap_content"
+            android:hint="Guess Battery Percentage" />
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/button_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"/>
 </LinearLayout>
