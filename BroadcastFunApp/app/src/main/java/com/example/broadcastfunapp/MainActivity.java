@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         if (itemName == "Custom broadcast receiver") {
             String broadcastText = customMessage.getText().toString(); // GETTING THE BROADCAST TEXT
             Intent CustomBroadcastIntent = new Intent(MainActivity.this, CustomBroadcastActivity.class);
+            CustomBroadcastIntent.putExtra("broadcast",broadcastText);
             startActivity(CustomBroadcastIntent);
         } else if (itemName == "Wifi State Change") {
             Intent WifiStateIntent = new Intent(MainActivity.this, WifiStateActivity.class);
@@ -60,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
     public void displayItemInfo(Item item){
         String name = item.getName();
-        Toast.makeText(this,"You choosed " + name + " and pressed SELECT", Toast.LENGTH_LONG).show();
+        Toast.makeText(this,name + " SELECTED", Toast.LENGTH_LONG).show();
     }
 
 // GOING TO USE THIS SECTION BELOW TO SET FUNCTIONALITY WHEN SELECTED AN ITEM
