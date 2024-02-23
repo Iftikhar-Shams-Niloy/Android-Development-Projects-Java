@@ -37,7 +37,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"
             android:textSize="20sp"
-            android:textColor="#ee8c4d"
+            android:textColor="#333369"
             android:textStyle="bold"
             android:text="THE APP TITLE" />
         <TextView
@@ -46,12 +46,21 @@
             android:layout_toEndOf="@id/card_view_image"
             android:layout_width="135dp"
             android:layout_height="wrap_content"
+            android:maxHeight="70dp"
             android:layout_marginHorizontal="10dp"
             android:layout_marginTop="2dp"
             android:textSize="15sp"
-            android:textColor="#ee8c4d"
-            android:text="This is app Description!
+            android:textColor="#223344"
+            android:text="This is app Description!This is app Description!This is app Description!This is app Description!This is app Description!
             This is app Description!"/>
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/card_view_image"
+            android:layout_below="@id/text_view_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
         <androidx.cardview.widget.CardView
             android:id="@+id/card_view_episode"
             android:layout_below="@id/text_view_title"
