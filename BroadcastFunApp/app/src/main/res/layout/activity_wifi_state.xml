@@ -34,7 +34,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:textColor="#1D4E89"
+                    android:textColor="#3D5A80"
                     android:textStyle="bold"
                     android:text="Type :"/>
             </androidx.cardview.widget.CardView>
@@ -42,14 +42,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardBackgroundColor="#FBB7B3">
+
                 <TextView
                     android:id="@+id/text_view_connection_status"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="18dp"
                     android:padding="5dp"
+                    android:text="Status :"
                     android:textColor="#3D5A80"
-                    android:textStyle="bold"
-                    android:text="Status :"/>
+                    android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>
     </androidx.cardview.widget.CardView>

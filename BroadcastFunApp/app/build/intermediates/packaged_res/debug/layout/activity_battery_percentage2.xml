@@ -29,6 +29,7 @@
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
                     android:textSize="20sp"
+                    android:textColor="#3D5A80"
                     android:textStyle="italic|bold"
                     android:text="YOUR GUESS"/>
             </androidx.cardview.widget.CardView>
@@ -39,6 +40,7 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textSize="30sp"
+                android:textColor="#3D5A80"
                 android:textStyle="bold"
                 android:text="100%"/>
             </RelativeLayout>
@@ -67,6 +69,7 @@
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
                     android:textSize="20sp"
+                    android:textColor="#3D5A80"
                     android:textStyle="bold|italic"
                     android:text="BATTERY STATUS"/>
             </androidx.cardview.widget.CardView>
@@ -78,6 +81,7 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="30sp"
+                android:textColor="#3D5A80"
                 android:text="999%"/>
             <TextView
                 android:id="@+id/text_view_battery_status"
@@ -88,6 +92,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:textStyle="bold"
+                android:textColor="#3D5A80"
                 android:text="Charging"/>
         </RelativeLayout>
     </androidx.cardview.widget.CardView>

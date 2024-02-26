@@ -4,7 +4,7 @@
             "outputFile": "com.example.broadcastfunapp-mergeDebugResources-29:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\Android\\AndroidStudioProjects\\Java\\Android-Development-Projects-Java\\BroadcastFunApp\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "D:\\Android\\AndroidStudioProjects\\BroadcastFunApp\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

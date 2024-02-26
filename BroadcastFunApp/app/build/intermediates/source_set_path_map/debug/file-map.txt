@@ -25,10 +25,10 @@ com.example.broadcastfunapp-appcompat-1.6.1-23 D:\Android\.gradle\caches\transfo
 com.example.broadcastfunapp-lifecycle-runtime-2.6.1-24 D:\Android\.gradle\caches\transforms-3\d3f6d4b004a127b6769d84fc37f590f3\transformed\lifecycle-runtime-2.6.1\res
 com.example.broadcastfunapp-profileinstaller-1.3.0-25 D:\Android\.gradle\caches\transforms-3\de2bd7d7b997fa78474c377f3f0fc93c\transformed\profileinstaller-1.3.0\res
 com.example.broadcastfunapp-lifecycle-viewmodel-savedstate-2.6.1-26 D:\Android\.gradle\caches\transforms-3\f427da4ef364bfc0bd55d6f03311b557\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
-com.example.broadcastfunapp-pngs-27 D:\Android\AndroidStudioProjects\Java\Android-Development-Projects-Java\BroadcastFunApp\app\build\generated\res\pngs\debug
-com.example.broadcastfunapp-resValues-28 D:\Android\AndroidStudioProjects\Java\Android-Development-Projects-Java\BroadcastFunApp\app\build\generated\res\resValues\debug
-com.example.broadcastfunapp-packageDebugResources-29 D:\Android\AndroidStudioProjects\Java\Android-Development-Projects-Java\BroadcastFunApp\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.broadcastfunapp-packageDebugResources-30 D:\Android\AndroidStudioProjects\Java\Android-Development-Projects-Java\BroadcastFunApp\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.broadcastfunapp-merged_res-31 D:\Android\AndroidStudioProjects\Java\Android-Development-Projects-Java\BroadcastFunApp\app\build\intermediates\merged_res\debug
-com.example.broadcastfunapp-debug-32 D:\Android\AndroidStudioProjects\Java\Android-Development-Projects-Java\BroadcastFunApp\app\src\debug\res
-com.example.broadcastfunapp-main-33 D:\Android\AndroidStudioProjects\Java\Android-Development-Projects-Java\BroadcastFunApp\app\src\main\res
+com.example.broadcastfunapp-pngs-27 D:\Android\AndroidStudioProjects\BroadcastFunApp\app\build\generated\res\pngs\debug
+com.example.broadcastfunapp-resValues-28 D:\Android\AndroidStudioProjects\BroadcastFunApp\app\build\generated\res\resValues\debug
+com.example.broadcastfunapp-packageDebugResources-29 D:\Android\AndroidStudioProjects\BroadcastFunApp\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.broadcastfunapp-packageDebugResources-30 D:\Android\AndroidStudioProjects\BroadcastFunApp\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.broadcastfunapp-merged_res-31 D:\Android\AndroidStudioProjects\BroadcastFunApp\app\build\intermediates\merged_res\debug
+com.example.broadcastfunapp-debug-32 D:\Android\AndroidStudioProjects\BroadcastFunApp\app\src\debug\res
+com.example.broadcastfunapp-main-33 D:\Android\AndroidStudioProjects\BroadcastFunApp\app\src\main\res
