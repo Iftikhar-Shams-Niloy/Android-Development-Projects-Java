@@ -43,7 +43,7 @@ public class BatteryPercentageActivity2 extends AppCompatActivity {
         public void onReceive(Context context, Intent intent) {
             int level = intent.getIntExtra(BatteryManager.EXTRA_LEVEL,0);
             int plugged = intent.getIntExtra(BatteryManager.EXTRA_PLUGGED, -1);
-            battery.setText(String.valueOf(level)+"%");
+            battery.setText(level+"%");
             if (plugged == 0){
                 batteryCharging.setText("NOT CHARGING");
             } else {
